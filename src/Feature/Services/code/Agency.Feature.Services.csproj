@@ -112,6 +112,7 @@
     </Content>
     <None Include="packages.config" />
     <Content Include="Views\Services\ServiceContainer.cshtml" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
