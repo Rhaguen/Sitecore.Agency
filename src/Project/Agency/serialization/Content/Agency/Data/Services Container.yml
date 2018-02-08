@@ -1,0 +1,24 @@
+﻿---
+ID: "23ee3b3a-fd8f-4807-960c-8c7081604978"
+Parent: "5a2e8a5d-26f9-4e4e-af13-59108cf77f98"
+Template: "356964c8-fe85-45d1-aeec-5a6de64d088c"
+Path: /sitecore/content/Agency/Data/Services Container
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1fd890e7-2678-47e0-b53b-3e186abc02bd"
+      Hint: Title
+      Value: Services
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180208T171833Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "e5bc04fe-f8bb-4b0e-9281-48902e6a1bb0"
+      Hint: Subtitle
+      Value: Lorem ipsum dolor sit amet consectetur.

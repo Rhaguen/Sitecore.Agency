@@ -1,0 +1,23 @@
+﻿---
+ID: "cf31fd89-7a6c-452d-92c7-314d83ce5dd2"
+Parent: "23ee3b3a-fd8f-4807-960c-8c7081604978"
+Template: "2962098b-3672-4ced-b4a0-d639ae30e517"
+Path: /sitecore/content/Agency/Data/Services Container/Web Security
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180208T174348Z
+    - ID: "4307889b-80bb-4d0a-9167-9b55af8ce289"
+      Hint: Description
+      Value: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    - ID: "62a86581-43b6-45aa-a2d5-75cc79d08e44"
+      Hint: Title
+      Value: Web Security
+    - ID: "e5b6baef-8321-4f0a-8a3f-50d82bc9c8da"
+      Hint: IconType
+      Value: "fa-lock"

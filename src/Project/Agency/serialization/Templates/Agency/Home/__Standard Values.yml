@@ -9,7 +9,7 @@ SharedFields:
   Hint: __Renderings
   Type: layout
   Value: |
-    <r>
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
         l="{681C8707-BA53-40A0-B97E-4B732FD519F6}">
@@ -18,13 +18,15 @@ SharedFields:
           ph="navigation"
           uid="{C1D61F6B-83CE-40B2-97BB-6916984131C1}" />
         <r
-          id="{D05B39A0-F87E-4944-BE96-9365FCDC47D0}"
-          ph="navigation"
-          uid="{B340C451-05C5-474B-BB0C-9E311098BC85}" />
-        <r
           id="{0F1673EE-7148-49C0-8952-0AE644099178}"
           ph="header"
           uid="{8D27D200-807C-43CA-AA4D-87DD693FA5BE}" />
+        <r
+          ds=""
+          id="{D05B39A0-F87E-4944-BE96-9365FCDC47D0}"
+          par=""
+          ph="content"
+          uid="{B340C451-05C5-474B-BB0C-9E311098BC85}" />
       </d>
     </r>
 Languages:
