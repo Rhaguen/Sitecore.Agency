@@ -111,6 +111,8 @@
       <SubType>Designer</SubType>
     </Content>
     <None Include="packages.config" />
+    <Content Include="Views\Services\Service.cshtml" />
+    <Content Include="Views\Services\ServiceContainer.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -129,7 +131,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Foundation\Orm\code\Agency.Foundation.Orm.csproj">
