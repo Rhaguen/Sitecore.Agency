@@ -8,10 +8,6 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0
-- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
-  Hint: __Renderings
-  Type: layout
-  Value: 
 Languages:
 - Language: en
   Versions:
@@ -35,7 +31,7 @@ Languages:
             </r>
             <r
               uid="{CE98AF8B-CF94-4319-BCD5-9C241D89A372}"
-              p:after="*[1=2]"
+              p:after="r[@uid='{8D27D200-807C-43CA-AA4D-87DD693FA5BE}']"
               s:id="{D05B39A0-F87E-4944-BE96-9365FCDC47D0}"
               s:ph="content" />
           </d>

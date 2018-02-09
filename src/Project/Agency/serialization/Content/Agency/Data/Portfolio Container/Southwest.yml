@@ -1,0 +1,32 @@
+﻿---
+ID: "496d9c4b-0edd-4260-9622-2498c1a35753"
+Parent: "ce3b92c9-75bd-451e-89ae-0b4bc461ed16"
+Template: "c881fc44-6ad8-4079-b1c0-8cca3ccb7ad9"
+Path: /sitecore/content/Agency/Data/Portfolio Container/Southwest
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180209T120834Z
+    - ID: "81f8fad9-9fa5-4019-b453-dadd6972055f"
+      Hint: Client
+      Value: Southwest
+    - ID: "8f97e555-1599-4255-acdb-163cb33ae181"
+      Hint: Category
+      Value: Website Design
+    - ID: "c8caef7d-c015-4643-9515-bb5c7b291ae2"
+      Hint: Thumbnail
+      Value: |
+        <link text="" linktype="media" url="" anchor="" title="" class="" querystring="" target="" id="{FCC54599-18B6-4780-A755-99E8E3E529AD}" />
+    - ID: "e7c4494c-9575-47ce-ba87-c37762a331bc"
+      Hint: Image
+      Value: |
+        <image mediapath="/Feature/Portfolio/01-full" alt="01-full" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Feature/Portfolio/01-full" mediaid="{C3EC24DC-24DC-47BD-A95F-BFC399B47503}" />

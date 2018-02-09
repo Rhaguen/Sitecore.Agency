@@ -1,0 +1,32 @@
+﻿---
+ID: "6a975284-d4c7-411a-a302-404873d89c76"
+Parent: "ce3b92c9-75bd-451e-89ae-0b4bc461ed16"
+Template: "c881fc44-6ad8-4079-b1c0-8cca3ccb7ad9"
+Path: /sitecore/content/Agency/Data/Portfolio Container/Window
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180209T120834Z
+    - ID: "81f8fad9-9fa5-4019-b453-dadd6972055f"
+      Hint: Client
+      Value: Window
+    - ID: "8f97e555-1599-4255-acdb-163cb33ae181"
+      Hint: Category
+      Value: Photography
+    - ID: "c8caef7d-c015-4643-9515-bb5c7b291ae2"
+      Hint: Thumbnail
+      Value: |
+        <link text="" linktype="media" url="" anchor="" title="" class="" querystring="" target="" id="{F1D6CE4D-72CD-4261-AF64-7D295CD9AB3A}" />
+    - ID: "e7c4494c-9575-47ce-ba87-c37762a331bc"
+      Hint: Image
+      Value: |
+        <image mediapath="/Feature/Portfolio/01-full" alt="01-full" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Feature/Portfolio/01-full" mediaid="{F2E65120-885B-4AAC-90F4-6BC2A48A8DD3}" />
