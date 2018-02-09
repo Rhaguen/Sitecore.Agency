@@ -1,13 +1,13 @@
 ﻿---
-ID: "ae28579e-8c80-4dfa-baef-193fafa77add"
+ID: "b4faf8fc-cb60-438c-8b70-8f7432381488"
 Parent: "ce3b92c9-75bd-451e-89ae-0b4bc461ed16"
 Template: "c881fc44-6ad8-4079-b1c0-8cca3ccb7ad9"
-Path: /sitecore/content/Agency/Data/Portfolio Container/Threads
+Path: /sitecore/content/Agency/Data/Portfolio Container/Explore
 DB: master
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 50
+  Value: 75
 Languages:
 - Language: en
   Versions:
@@ -18,15 +18,15 @@ Languages:
       Value: 20180209T120834Z
     - ID: "81f8fad9-9fa5-4019-b453-dadd6972055f"
       Hint: Title
-      Value: Threads
+      Value: Explore
     - ID: "8f97e555-1599-4255-acdb-163cb33ae181"
       Hint: Category
-      Value: Illustration
+      Value: Graphic Design
     - ID: "c8caef7d-c015-4643-9515-bb5c7b291ae2"
       Hint: Thumbnail
       Value: |
-        <link text="" linktype="media" url="" anchor="" title="" class="" querystring="" target="" id="{6D31883D-F97F-4A69-AB9A-00DF5624B740}" />
+        <link text="" linktype="media" url="" anchor="" title="" class="" querystring="" target="" id="{F9B9DD54-76FA-471D-A642-410D65FEE311}" />
     - ID: "e7c4494c-9575-47ce-ba87-c37762a331bc"
       Hint: Image
       Value: |
-        <image mediapath="/Feature/Portfolio/01-full" alt="01-full" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Feature/Portfolio/01-full" mediaid="{F5E96FE2-2520-4C2F-9094-3B6B3A8E9FEE}" />
+        <image mediapath="/Feature/Portfolio/01-full" alt="01-full" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Feature/Portfolio/01-full" mediaid="{4F726C70-9EBD-4C13-B001-245D71F3D8E1}" />
