@@ -1,0 +1,17 @@
+﻿---
+ID: "ce3b92c9-75bd-451e-89ae-0b4bc461ed16"
+Parent: "5a2e8a5d-26f9-4e4e-af13-59108cf77f98"
+Template: "23385128-2e7b-4041-9547-b0b4ae70394f"
+Path: /sitecore/content/Agency/Data/Portfolio Container
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180209T114523Z
+    - ID: "c539a4da-ed94-46a5-96f3-97e0721a2fd2"
+      Hint: Title
+      Value: Portfolio Container

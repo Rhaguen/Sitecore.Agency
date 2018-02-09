@@ -2,6 +2,7 @@
 using Glass.Mapper.Sc;
 using Glass.Mapper.Sc.Web.Mvc;
 using System.Web.Mvc;
+using System.Linq;
 
 namespace Agency.Feature.Services.Controllers
 {
@@ -11,7 +12,7 @@ namespace Agency.Feature.Services.Controllers
         {
             var context = new SitecoreContext();
             var serviceContainer = context.GetItem<ServicesContainer>("/sitecore/content/Agency/Data/Services Container");
-
+            serviceContainer.Children = serviceContainer.Children.Take(3);
             return View(serviceContainer);
         }
     }
