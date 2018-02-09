@@ -1,0 +1,26 @@
+﻿@using Agency.Feature.Services.Models;
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<ServicesContainer>
+
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">@Editable(m => m.Title)</h2>
+                <h3 class="section-subheading text-muted">@Editable(m => m.Subtitle)</h3>
+            </div>
+        </div>
+        <div class="row text-center">
+            @for (var i = 0; i< Model.Children.Count(); i++)
+            {
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="@string.Format("fa fa-{0} fa-stack-1x fa-inverse", Model.Children.ElementAt(i).IconType)"></i>
+                    </span>
+                    <h4 class="service-heading">@Editable(m => m.Children.ElementAt(i).Title)</h4>
+                    <p class="text-muted">@Editable(m => m.Children.ElementAt(i).Description)</p>
+                </div>
+            }
+        </div>
+    </div>
+</section>

@@ -11,7 +11,8 @@ namespace Agency.Feature.Portfolio.Controllers
         {
             var context = new SitecoreContext();
             var portfolioContainer = context.GetItem<PortfolioContainer>("/sitecore/content/Agency/Data/Portfolio Container");
-            return View(portfolioContainer);
+            string viewName = Sitecore.Context.PageMode.IsExperienceEditor ? "PortfolioEditMode" : "Portfolio";
+            return View(viewName, portfolioContainer);
         }
     }
 }

@@ -13,7 +13,8 @@ namespace Agency.Feature.Services.Controllers
             var context = new SitecoreContext();
             var serviceContainer = context.GetItem<ServicesContainer>("/sitecore/content/Agency/Data/Services Container");
             serviceContainer.Children = serviceContainer.Children.Take(3);
-            return View(serviceContainer);
+            string viewName = Sitecore.Context.PageMode.IsExperienceEditor ? "ServiceContainerEditMode" : "ServiceContainer";
+            return View(viewName, serviceContainer);
         }
     }
 }
