@@ -1,0 +1,34 @@
+﻿@using Agency.Feature.Portfolio.Models;
+@using Sitecore.Mvc;
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<PortfolioItem>
+
+<div id="@string.Concat("portfolioModal", 1)" tabindex="-1" role="dialog" aria-hidden="true">
+    <div>
+        <div class="portfolio-caption">
+            <h4>@Editable(m => m.Client)</h4>
+            <p class="text-muted">@Editable(m => m.Category)</p>
+        </div>
+        <a class="portfolio-link" data-toggle="modal" href="@Model.PortfolioModal">
+            @RenderImage(m => m.Thumbnail, isEditable: true, parameters: new { @class = "img-fluid" })
+        </a>
+    </div>
+    <div>
+        <div class="modal-content">
+            <div">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2 class="text-uppercase">@Editable(m => m.ProjectName)</h2>
+                            <p class="item-intro text-muted">@Editable(m => m.ProjectTitle)</p>
+                            @RenderImage(m => m.Image, isEditable: true, parameters: new { @class = "img-fluid", style = "height: auto; max-width: 50%;" })
+                            <p>@Editable(m => m.Description)</p>
+                            <ul class="list-inline">
+                                <li>Date: @Editable(m => m.Date)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>

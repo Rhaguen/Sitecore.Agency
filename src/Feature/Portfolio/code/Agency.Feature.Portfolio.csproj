@@ -112,6 +112,8 @@
     <Content Include="App_Config\Include\Feature.Portfolio.Serialization" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\Portfolio\PortfolioEditMode.cshtml" />
+    <Content Include="Views\Portfolio\PortfolioItem.cshtml" />
+    <Content Include="Views\Portfolio\PortfolioItemEditMode.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

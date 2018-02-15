@@ -1,13 +1,9 @@
 ﻿---
-ID: "ce3b92c9-75bd-451e-89ae-0b4bc461ed16"
-Parent: "5a2e8a5d-26f9-4e4e-af13-59108cf77f98"
+ID: "db807d86-140c-45dd-9200-9a0276bd5851"
+Parent: "84b13a1a-5e26-4ad2-a7b4-4bda8550060c"
 Template: "23385128-2e7b-4041-9547-b0b4ae70394f"
-Path: /sitecore/content/Agency/Data/Portfolio Container
+Path: /sitecore/content/Agency/Home/Page Data/Portfolio Container
 DB: master
-SharedFields:
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 100
 Languages:
 - Language: en
   Versions:
@@ -15,7 +11,10 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180209T114523Z
+      Value: 20180214T130439Z
     - ID: "c539a4da-ed94-46a5-96f3-97e0721a2fd2"
       Hint: Title
       Value: Portfolio Container
+    - ID: "f383ee48-4c55-48eb-a46a-35adf594858b"
+      Hint: Subtitle
+      Value: Lorem ipsum dolor sit amet consectetur.

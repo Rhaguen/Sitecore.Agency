@@ -1,0 +1,34 @@
+﻿---
+ID: "a5704902-dd4b-495a-a5f9-2254fd0997c3"
+Parent: "db807d86-140c-45dd-9200-9a0276bd5851"
+Template: "c881fc44-6ad8-4079-b1c0-8cca3ccb7ad9"
+Path: /sitecore/content/Agency/Home/Page Data/Portfolio Container/Finish
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02b4c66c-6033-4299-b38c-ea21f994764a"
+      Hint: Date
+      Value: 20180206T000000
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180214T173940Z
+    - ID: "81f8fad9-9fa5-4019-b453-dadd6972055f"
+      Hint: Client
+      Value: Finish
+    - ID: "8f97e555-1599-4255-acdb-163cb33ae181"
+      Hint: Category
+      Value: Identity
+    - ID: "c8caef7d-c015-4643-9515-bb5c7b291ae2"
+      Hint: Thumbnail
+      Value: |
+        <image id="{6D31883D-F97F-4A69-AB9A-00DF5624B740}" querystring="" mediaid="{C9C5A614-D72D-4411-A950-7CDDA6BBA5E3}" text="" anchor="" linktype="internal" title="" class="" target="" />
+    - ID: "dc72e571-29ce-4fe4-adfe-b4809c55e0b6"
+      Hint: ProjectName
+      Value: THE FINISH PROJECT
+    - ID: "e7c4494c-9575-47ce-ba87-c37762a331bc"
+      Hint: Image
+      Value: |
+        <image mediaid="{BA523394-6E75-4501-B383-FEFDD5718EC1}" />

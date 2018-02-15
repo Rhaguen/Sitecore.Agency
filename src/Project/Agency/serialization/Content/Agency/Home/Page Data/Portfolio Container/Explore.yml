@@ -1,0 +1,31 @@
+﻿---
+ID: "66d21542-d697-494f-91ac-1da855b57b58"
+Parent: "db807d86-140c-45dd-9200-9a0276bd5851"
+Template: "c881fc44-6ad8-4079-b1c0-8cca3ccb7ad9"
+Path: /sitecore/content/Agency/Home/Page Data/Portfolio Container/Explore
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180214T131347Z
+    - ID: "81f8fad9-9fa5-4019-b453-dadd6972055f"
+      Hint: Client
+      Value: Explore
+    - ID: "8f97e555-1599-4255-acdb-163cb33ae181"
+      Hint: Category
+      Value: Graphic Design
+    - ID: "c8caef7d-c015-4643-9515-bb5c7b291ae2"
+      Hint: Thumbnail
+      Value: |
+        <image id="{6D31883D-F97F-4A69-AB9A-00DF5624B740}" querystring="" target="" mediaid="{F9B9DD54-76FA-471D-A642-410D65FEE311}" text="" anchor="" title="" class="" linktype="internal" />
+    - ID: "dc72e571-29ce-4fe4-adfe-b4809c55e0b6"
+      Hint: ProjectName
+      Value: the explore Project
+    - ID: "e7c4494c-9575-47ce-ba87-c37762a331bc"
+      Hint: Image
+      Value: |
+        <image mediaid="{4F726C70-9EBD-4C13-B001-245D71F3D8E1}" />

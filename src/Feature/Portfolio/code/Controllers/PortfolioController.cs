@@ -1,6 +1,7 @@
 ﻿using Agency.Feature.Portfolio.Models;
 using Glass.Mapper.Sc;
 using Glass.Mapper.Sc.Web.Mvc;
+using System.Linq;
 using System.Web.Mvc;
 
 namespace Agency.Feature.Portfolio.Controllers
@@ -9,10 +10,14 @@ namespace Agency.Feature.Portfolio.Controllers
     {
         public ActionResult Portfolio()
         {
-            var context = new SitecoreContext();
-            var portfolioContainer = context.GetItem<PortfolioContainer>("/sitecore/content/Agency/Data/Portfolio Container");
-            string viewName = Sitecore.Context.PageMode.IsExperienceEditor ? "PortfolioEditMode" : "Portfolio";
-            return View(viewName, portfolioContainer);
+            var portfolioContainer = this.GetDataSourceItem<PortfolioContainer>();
+            return View(Sitecore.Context.PageMode.IsExperienceEditor ? "PortfolioEditMode" : "Portfolio", portfolioContainer);
+        }
+
+        public ActionResult PortfolioItem()
+        {
+            var portfolioItem = this.GetDataSourceItem<PortfolioItem>();
+            return View(Sitecore.Context.PageMode.IsExperienceEditor ? "PortfolioItemEditMode" : "PortfolioItem", portfolioItem);
         }
     }
 }

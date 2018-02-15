@@ -1,0 +1,27 @@
+﻿---
+ID: "c0fdd615-81ad-4f2d-9917-e6794f4acd6a"
+Parent: "4a7a776f-94e6-4737-ae41-59ca2a09633f"
+Template: "70dc2a38-b71c-4b31-948b-157fb9a14b85"
+Path: /sitecore/content/Agency/Home/Page Data/About Container/Transition to Full Service
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07d6cd82-611e-4d41-9d43-5b386d866bcf"
+      Hint: TimeSpan
+      Value: December 2012
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180209T184646Z
+    - ID: "2b5ab94e-c20c-4d91-a8e8-ae157c168743"
+      Hint: Image
+      Value: |
+        <image mediaid="{B2D6684A-76BF-416C-8814-5C8BD76D77E8}" />
+    - ID: "351cc46b-bc5e-4ec5-a6e2-76a8c10133a9"
+      Hint: Description
+      Value: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+    - ID: "fda665bf-594d-4ccd-871a-f06d47c17c0b"
+      Hint: Title
+      Value: Transition to Full Service
