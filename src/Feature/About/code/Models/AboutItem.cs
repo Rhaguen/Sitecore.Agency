@@ -9,5 +9,6 @@ namespace Agency.Feature.About.Models
         public string Title { get; set; }
         public string Description { get; set; }
         public Image Image { get; set; }
+        public bool Inverted { get; internal set; }
     }
 }

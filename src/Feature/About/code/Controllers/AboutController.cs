@@ -1,5 +1,4 @@
 ﻿using Agency.Feature.About.Models;
-using Glass.Mapper.Sc;
 using Glass.Mapper.Sc.Web.Mvc;
 using System.Web.Mvc;
 
@@ -9,10 +8,17 @@ namespace Agency.Feature.About.Controllers
     {
         public ActionResult About()
         {
-            var context = new SitecoreContext();
-            var aboutContainer = context.GetItem<AboutContainer>("/sitecore/content/Agency/Home/Page Data/About Container");
-            string viewName = Sitecore.Context.PageMode.IsExperienceEditor ? "AboutContainerEditMode" : "AboutContainer";
-            return View(viewName, aboutContainer);
+            var aboutContainer = this.GetDataSourceItem<AboutContainer>();
+            return View(Sitecore.Context.PageMode.IsExperienceEditor ? "AboutEditMode" : "About", aboutContainer);
+        }
+
+        public ActionResult AboutItem()
+        {
+            bool position = TempData["inverted"] != null ? bool.Parse(TempData["inverted"].ToString()) : false;
+            var aboutItem = this.GetDataSourceItem<AboutItem>();
+            aboutItem.Inverted = position;
+            TempData["inverted"] = !position;
+            return View(Sitecore.Context.PageMode.IsExperienceEditor ? "AboutItemEditMode" : "AboutItem", aboutItem);
         }
     }
 }

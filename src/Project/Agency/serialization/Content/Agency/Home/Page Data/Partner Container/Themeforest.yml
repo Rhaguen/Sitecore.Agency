@@ -1,0 +1,21 @@
+﻿---
+ID: "9778195e-e5b0-4bba-86b4-33130ab9e2eb"
+Parent: "ab5ec374-7ada-4532-bc61-a0425b329aea"
+Template: "5443e8c1-2f5c-4556-b762-5c1bfb0962f6"
+Path: /sitecore/content/Agency/Home/Page Data/Partner Container/Themeforest
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180219T195514Z
+    - ID: "39e997da-7d7f-406b-83ad-86dae5361392"
+      Hint: Title
+      Value: Themeforest Title
+    - ID: "61da5197-d5a2-4364-9dd8-2dcfe169302a"
+      Hint: Image
+      Value: |
+        <image mediapath="" src="" height="" mediaid="{C0AA7815-767B-493F-9E74-690129D06124}" hspace="" usethumbnail="" showineditor="" width="" alt="creative-market" vspace="" />

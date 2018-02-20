@@ -1,9 +1,13 @@
 ﻿---
-ID: "68d7e452-395a-4fa6-9db2-d4a824ec6f3f"
-Parent: "4a7a776f-94e6-4737-ae41-59ca2a09633f"
+ID: "06fa1b88-9102-4e54-8278-c180937c28ef"
+Parent: "b5b569fd-ceec-4035-8388-116a639abdd2"
 Template: "70dc2a38-b71c-4b31-948b-157fb9a14b85"
 Path: /sitecore/content/Agency/Home/Page Data/About Container/An Agency is Born
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 150
 Languages:
 - Language: en
   Versions:
@@ -14,14 +18,18 @@ Languages:
       Value: March 2011
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180209T184319Z
+      Value: 20180215T160128Z
     - ID: "2b5ab94e-c20c-4d91-a8e8-ae157c168743"
       Hint: Image
       Value: |
         <image mediaid="{30ECB7C7-0AAA-485E-9AD7-22371816368B}" />
     - ID: "351cc46b-bc5e-4ec5-a6e2-76a8c10133a9"
       Hint: Description
-      Value: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      Value: |
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut 
+        voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, 
+        recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium 
+        consectetur!
     - ID: "fda665bf-594d-4ccd-871a-f06d47c17c0b"
       Hint: Title
       Value: An Agency is Born

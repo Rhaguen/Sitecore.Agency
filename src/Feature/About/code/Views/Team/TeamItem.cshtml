@@ -1,0 +1,28 @@
+﻿@using Sitecore.Mvc;
+@using Agency.Feature.About.Models;
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<TeamItem>
+
+<div class="col-sm-4">
+    <div class="team-member">
+        <img class="mx-auto rounded-circle" src="@Model.Image.Src" alt="">
+        <h4>@Model.TeamMemberName</h4>
+        <p class="text-muted">@Model.Position</p>
+        <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+                <a href="@Model.Twitter">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="@Model.Facebook">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="@Model.Linkedin">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

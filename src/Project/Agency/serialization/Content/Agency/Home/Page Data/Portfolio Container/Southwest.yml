@@ -1,0 +1,31 @@
+﻿---
+ID: "31f24e28-1aed-45d2-8855-ee5f07e36881"
+Parent: "db807d86-140c-45dd-9200-9a0276bd5851"
+Template: "c881fc44-6ad8-4079-b1c0-8cca3ccb7ad9"
+Path: /sitecore/content/Agency/Home/Page Data/Portfolio Container/Southwest
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180214T190246Z
+    - ID: "81f8fad9-9fa5-4019-b453-dadd6972055f"
+      Hint: Client
+      Value: Southwest
+    - ID: "8f97e555-1599-4255-acdb-163cb33ae181"
+      Hint: Category
+      Value: Website Design
+    - ID: "c8caef7d-c015-4643-9515-bb5c7b291ae2"
+      Hint: Thumbnail
+      Value: |
+        <image id="{6D31883D-F97F-4A69-AB9A-00DF5624B740}" querystring="" target="" mediaid="{FCC54599-18B6-4780-A755-99E8E3E529AD}" text="" anchor="" title="" class="" linktype="internal" />
+    - ID: "dc72e571-29ce-4fe4-adfe-b4809c55e0b6"
+      Hint: ProjectName
+      Value: The SOUTHWEST Project
+    - ID: "e7c4494c-9575-47ce-ba87-c37762a331bc"
+      Hint: Image
+      Value: |
+        <image mediaid="{C3EC24DC-24DC-47BD-A95F-BFC399B47503}" />

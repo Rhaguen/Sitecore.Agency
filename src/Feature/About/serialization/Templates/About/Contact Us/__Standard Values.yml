@@ -1,0 +1,27 @@
+﻿---
+ID: "e3a71019-6ca2-4b92-8638-1724cc2f2f5e"
+Parent: "1f2463a4-48f2-4816-bc18-3c39aa13c558"
+Template: "1f2463a4-48f2-4816-bc18-3c39aa13c558"
+Path: /sitecore/templates/Feature/About/Contact Us/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1836f60d-da7b-48a8-ae14-49c58d662875"
+      Hint: Subtitle
+      Value: Lorem ipsum dolor sit amet consectetur.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180216T131557Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "9766d020-52a0-4e6a-a415-cfa70f221e23"
+      Hint: ButtonText
+      Value: Send Message
+    - ID: "f723c3db-6cbb-40e8-a11a-d435f8426169"
+      Hint: Title
+      Value: Contact Us

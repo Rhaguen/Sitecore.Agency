@@ -1,0 +1,19 @@
+﻿@using Agency.Feature.Navigation.Models;
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<PartnerItem>
+
+@if (IsInEditingMode && Model != null)
+{
+    <div class="col-md-3 col-sm-6">
+        <a href="#">
+            @RenderImage(m => m.Image, isEditable: true, parameters: new { @class = "img-fluid d-block mx-auto" })
+        </a>
+    </div>
+}
+else
+{
+    <div class="col-md-3 col-sm-6">
+        <a href="#">
+            <img class="img-fluid d-block mx-auto" src="@Model.Image.Src" alt="">
+        </a>
+    </div>
+}

@@ -1,0 +1,40 @@
+﻿---
+ID: "7a93bae8-a2a6-4384-9d4c-ad1cb78ae2f0"
+Parent: "5443e8c1-2f5c-4556-b762-5c1bfb0962f6"
+Template: "5443e8c1-2f5c-4556-b762-5c1bfb0962f6"
+Path: /sitecore/templates/Feature/Navigation/Partner Item/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180215T171416Z
+    - ID: "39e997da-7d7f-406b-83ad-86dae5361392"
+      Hint: Title
+      Value: Sample Title
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "5ec6e155-4642-4492-91ec-aad5b82e3af2"
+      Hint: Facebook
+      Value: #
+    - ID: "61da5197-d5a2-4364-9dd8-2dcfe169302a"
+      Hint: Image
+      Value: |
+        <image mediapath="" alt="creative-market" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{701BF643-E518-4C72-9BBA-1D96951EF747}" />
+    - ID: "63c3e60c-c6b0-443b-99b9-e5403a083e41"
+      Hint: Position
+      Value: Position
+    - ID: "84b46243-febf-4007-8d41-ca56d404c9f4"
+      Hint: Twitter
+      Value: #
+    - ID: "8504855c-590c-4c35-bc05-7da2bc20f684"
+      Hint: TeamMemberName
+      Value: $name
+    - ID: "8d7f5556-dfda-4863-b283-0f9223e7ce10"
+      Hint: Linkedin
+      Value: #

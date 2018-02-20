@@ -1,5 +1,5 @@
 ﻿---
-ID: "31f24e28-1aed-45d2-8855-ee5f07e36881"
+ID: "f84f46d8-47ac-45d5-a932-bd8bc71c32c5"
 Parent: "db807d86-140c-45dd-9200-9a0276bd5851"
 Template: "c881fc44-6ad8-4079-b1c0-8cca3ccb7ad9"
 Path: /sitecore/content/Agency/Home/Page Data/Portfolio Container/Lines
@@ -11,7 +11,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180214T190246Z
+      Value: 20180215T111318Z
     - ID: "81f8fad9-9fa5-4019-b453-dadd6972055f"
       Hint: Client
       Value: Lines
@@ -21,11 +21,11 @@ Languages:
     - ID: "c8caef7d-c015-4643-9515-bb5c7b291ae2"
       Hint: Thumbnail
       Value: |
-        <image id="{6D31883D-F97F-4A69-AB9A-00DF5624B740}" querystring="" target="" mediaid="{FCC54599-18B6-4780-A755-99E8E3E529AD}" text="" anchor="" title="" class="" linktype="internal" />
+        <image id="{6D31883D-F97F-4A69-AB9A-00DF5624B740}" querystring="" target="" mediaid="{98D48023-7F71-4525-B955-0D53CF0D78B7}" text="" anchor="" title="" class="" linktype="internal" />
     - ID: "dc72e571-29ce-4fe4-adfe-b4809c55e0b6"
       Hint: ProjectName
-      Value: The Branding Project
+      Value: The branding project
     - ID: "e7c4494c-9575-47ce-ba87-c37762a331bc"
       Hint: Image
       Value: |
-        <image mediaid="{C3EC24DC-24DC-47BD-A95F-BFC399B47503}" />
+        <image mediaid="{04B6E31E-5549-4317-9825-318B7C02517C}" />

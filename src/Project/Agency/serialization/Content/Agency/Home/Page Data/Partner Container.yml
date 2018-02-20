@@ -1,0 +1,14 @@
+﻿---
+ID: "ab5ec374-7ada-4532-bc61-a0425b329aea"
+Parent: "84b13a1a-5e26-4ad2-a7b4-4bda8550060c"
+Template: "74149bd5-360e-446f-86b7-59378830cec9"
+Path: /sitecore/content/Agency/Home/Page Data/Partner Container
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180219T192950Z

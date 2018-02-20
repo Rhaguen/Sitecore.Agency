@@ -146,6 +146,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pipelines\LoadRoutes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -162,10 +163,12 @@
     <Content Include="assets\js\jquery.min.js" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
+    <Content Include="assets\img\map-image.png" />
     <Content Include="favicon.ico" />
     <Content Include="App_Config\Include\Project\z.Agency.DevSettings.config" />
     <Content Include="App_Config\Include\Project\Agency.Website.config" />
     <Content Include="App_Config\Include\Project\Agency.Website.Serialization.config" />
+    <Content Include="App_Config\Include\LoadRoutes.config" />
     <None Include="App_Config\Security\domains.config.transform" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="packages.config" />

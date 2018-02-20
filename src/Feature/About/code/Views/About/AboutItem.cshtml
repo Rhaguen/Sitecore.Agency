@@ -1,0 +1,18 @@
+﻿@using Sitecore.Mvc;
+@using Agency.Feature.About.Models;
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<AboutItem>
+
+<li class="@(Model.Inverted ? string.Empty : "timeline-inverted")">
+    <div class="timeline-image">
+        <img class="rounded-circle img-fluid" src="@(Model.Image == null ? string.Empty : Model.Image.Src)" alt="">
+    </div>
+    <div class="timeline-panel">
+        <div class="timeline-heading">
+            <h4>@Model.TimeSpan</h4>
+            <h4 class="subheading">@Model.Title</h4>
+        </div>
+        <div class="timeline-body">
+            <p class="text-muted">@Model.Description</p>
+        </div>
+    </div>
+</li>

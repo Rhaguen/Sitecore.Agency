@@ -1,0 +1,46 @@
+﻿---
+ID: "1b81e079-ec37-480f-b29c-66b2c22e9486"
+Parent: "7edfefa6-2f86-40e7-982d-246b732697a2"
+Template: "7edfefa6-2f86-40e7-982d-246b732697a2"
+Path: /sitecore/templates/Feature/About/Team Container/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{FB41E36A-F6CD-43FE-90B6-074FC612408F}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{681C8707-BA53-40A0-B97E-4B732FD519F6}">
+        <r
+          id="{E7B9B796-4510-4A70-813F-5AE732076D4F}"
+          ph=""
+          uid="{D4CDC18A-A7E2-4B96-8C00-732E17907594}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0799dcaa-cb95-42a3-8ed7-6ceed14ae625"
+      Hint: Subtitle
+      Value: Lorem ipsum dolor sit amet consectetur.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180215T165314Z
+    - ID: "502a4d8a-84d2-4f2f-bcac-6fc47ca53a29"
+      Hint: Title
+      Value: Our Amazing Team
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "d94775ef-6ade-476d-b12a-e585900690e3"
+      Hint: Description
+      Value: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.

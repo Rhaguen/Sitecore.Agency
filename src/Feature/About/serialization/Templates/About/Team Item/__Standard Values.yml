@@ -1,0 +1,33 @@
+﻿---
+ID: "9c0938eb-3fda-4c71-bf8a-0e0f6305d8c2"
+Parent: "fb41e36a-f6cd-43fe-90b6-074fc612408f"
+Template: "fb41e36a-f6cd-43fe-90b6-074fc612408f"
+Path: /sitecore/templates/Feature/About/Team Item/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180215T171416Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "5ec6e155-4642-4492-91ec-aad5b82e3af2"
+      Hint: Facebook
+      Value: #
+    - ID: "63c3e60c-c6b0-443b-99b9-e5403a083e41"
+      Hint: Position
+      Value: Position
+    - ID: "84b46243-febf-4007-8d41-ca56d404c9f4"
+      Hint: Twitter
+      Value: #
+    - ID: "8504855c-590c-4c35-bc05-7da2bc20f684"
+      Hint: Name
+      Value: $name
+    - ID: "8d7f5556-dfda-4863-b283-0f9223e7ce10"
+      Hint: Linkedin
+      Value: #

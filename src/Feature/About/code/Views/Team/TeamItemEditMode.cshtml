@@ -1,0 +1,31 @@
+﻿@using Sitecore.Mvc;
+@using Agency.Feature.About.Models;
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<TeamItem>
+
+<div class="col-sm-4">
+    <div class="team-member">
+        @RenderImage(m => m.Image, isEditable: true, parameters: new { @class = "mx-auto rounded-circle" })
+        <h4>@Editable(m => m.TeamMemberName)</h4>
+        <p class="text-muted">@Editable(m => m.Position)</p>
+        <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+                <div class="form-group">
+                    <label for="form_twitter">Twitter: </label>
+                    @Editable(m => m.Twitter)
+                </div>
+            </li>
+            <li class="list-inline-item">
+                <div class="form-group">
+                    <label for="form_facebook">Facebook: </label>
+                    @Editable(m => m.Facebook)
+                </div>
+            </li>
+            <li class="list-inline-item">
+                <div class="form-group">
+                    <label for="form_linkedin">Linkedin: </label>
+                    @Editable(m => m.Linkedin)
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+﻿---
+ID: "dae3073f-a74a-453e-b15c-07f6b00ce470"
+Parent: "b5b569fd-ceec-4035-8388-116a639abdd2"
+Template: "70dc2a38-b71c-4b31-948b-157fb9a14b85"
+Path: /sitecore/content/Agency/Home/Page Data/About Container/Phase Two Expansion
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07d6cd82-611e-4d41-9d43-5b386d866bcf"
+      Hint: TimeSpan
+      Value: July 2014
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180215T160709Z
+    - ID: "2b5ab94e-c20c-4d91-a8e8-ae157c168743"
+      Hint: Image
+      Value: |
+        <image mediaid="{E33F73B4-42AA-4D09-B171-CEB3F15C1396}" />
+    - ID: "351cc46b-bc5e-4ec5-a6e2-76a8c10133a9"
+      Hint: Description
+      Value: |
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut 
+        voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, 
+        recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium 
+        consectetur!
+    - ID: "fda665bf-594d-4ccd-871a-f06d47c17c0b"
+      Hint: Title
+      Value: Phase Two Expansion

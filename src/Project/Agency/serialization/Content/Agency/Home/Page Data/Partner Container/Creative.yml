@@ -1,0 +1,21 @@
+﻿---
+ID: "7e8ba372-9cd0-464a-b032-c1ced94bfb56"
+Parent: "ab5ec374-7ada-4532-bc61-a0425b329aea"
+Template: "5443e8c1-2f5c-4556-b762-5c1bfb0962f6"
+Path: /sitecore/content/Agency/Home/Page Data/Partner Container/Creative
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180219T193134Z
+    - ID: "39e997da-7d7f-406b-83ad-86dae5361392"
+      Hint: Title
+      Value: Creative Title
+    - ID: "61da5197-d5a2-4364-9dd8-2dcfe169302a"
+      Hint: Image
+      Value: |
+        <image mediaid="{701BF643-E518-4C72-9BBA-1D96951EF747}" />

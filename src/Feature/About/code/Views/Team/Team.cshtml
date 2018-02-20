@@ -1,0 +1,22 @@
+﻿@using Sitecore.Mvc;
+@using Agency.Feature.About.Models;
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<TeamContainer>
+
+<section class="bg-light" id="team">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">@Model.Title</h2>
+                <h3 class="section-subheading text-muted">@Model.Subtitle</h3>
+            </div>
+        </div>
+        <div class="row">
+            @Html.Sitecore().Placeholder("teamItem")
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <p class="large text-muted">@Model.Description</p>
+            </div>
+        </div>
+    </div>
+</section>

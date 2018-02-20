@@ -114,12 +114,17 @@
     </Content>
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\Menu\MainMenu.cshtml" />
+    <Content Include="Views\Partner\Partner.cshtml" />
+    <Content Include="Views\Partner\PartnerItem.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\MenuController.cs" />
+    <Compile Include="Controllers\PartnerController.cs" />
+    <Compile Include="Models\PartnerContainer.cs" />
     <Compile Include="Models\MainMenu.cs" />
     <Compile Include="Models\MainMenuItem.cs" />
+    <Compile Include="Models\PartnerItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,24 @@
+﻿---
+ID: "572419e1-84bc-47fa-8819-34b8551ae0d4"
+Parent: "711017bb-18b1-46cd-91a2-b8996f0995ce"
+Template: "fb41e36a-f6cd-43fe-90b6-074fc612408f"
+Path: /sitecore/content/Agency/Home/Page Data/Team Container/Larry Parker
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180215T192809Z
+    - ID: "63c3e60c-c6b0-443b-99b9-e5403a083e41"
+      Hint: Position
+      Value: Lead Marketer
+    - ID: "8504855c-590c-4c35-bc05-7da2bc20f684"
+      Hint: TeamMemberName
+      Value: Larry Parker
+    - ID: "c7d1d55e-a93b-4e16-baff-8f1f352881d2"
+      Hint: Image
+      Value: |
+        <image mediaid="{6E0207A6-6ADD-483E-893C-E8DC81A1FE78}" />

@@ -1,0 +1,24 @@
+﻿---
+ID: "45358b91-a5b2-4ebe-8330-93883214a73f"
+Parent: "711017bb-18b1-46cd-91a2-b8996f0995ce"
+Template: "fb41e36a-f6cd-43fe-90b6-074fc612408f"
+Path: /sitecore/content/Agency/Home/Page Data/Team Container/Diana Pertersen
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180215T192915Z
+    - ID: "63c3e60c-c6b0-443b-99b9-e5403a083e41"
+      Hint: Position
+      Value: Lead Developer
+    - ID: "8504855c-590c-4c35-bc05-7da2bc20f684"
+      Hint: TeamMemberName
+      Value: Diana Pertersen
+    - ID: "c7d1d55e-a93b-4e16-baff-8f1f352881d2"
+      Hint: Image
+      Value: |
+        <image mediaid="{F39EFED2-3B2E-4C66-A5C5-38A8CE34E5B0}" />

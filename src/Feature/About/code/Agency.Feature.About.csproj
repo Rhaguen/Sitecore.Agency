@@ -107,8 +107,16 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
-    <Content Include="Views\About\AboutContainer.cshtml" />
-    <Content Include="Views\About\AboutContainerEditMode.cshtml" />
+    <Content Include="Views\About\About.cshtml" />
+    <Content Include="Views\About\AboutEditMode.cshtml" />
+    <Content Include="Views\About\AboutItem.cshtml" />
+    <Content Include="Views\About\AboutItemEditMode.cshtml" />
+    <Content Include="Views\Team\Team.cshtml" />
+    <Content Include="Views\Team\TeamItem.cshtml" />
+    <Content Include="Views\Team\TeamEditMode.cshtml" />
+    <Content Include="Views\Team\TeamItemEditMode.cshtml" />
+    <Content Include="Views\Contact\Contact.cshtml" />
+    <Content Include="Views\Contact\ContactEditMode.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -124,8 +132,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\ContactController.cs" />
+    <Compile Include="Controllers\TeamController.cs" />
     <Compile Include="Models\AboutContainer.cs" />
     <Compile Include="Models\AboutItem.cs" />
+    <Compile Include="Models\ContactForm.cs" />
+    <Compile Include="Models\ContactUs.cs" />
+    <Compile Include="Models\TeamContainer.cs" />
+    <Compile Include="Models\TeamItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

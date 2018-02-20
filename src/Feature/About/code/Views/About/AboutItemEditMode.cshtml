@@ -1,0 +1,18 @@
+﻿@using Sitecore.Mvc;
+@using Agency.Feature.About.Models;
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<AboutItem>
+
+<li class="@(Model.Inverted ? string.Empty : "timeline-inverted")">
+    <div class="timeline-image">
+        @RenderImage(m => m.Image, isEditable: true, parameters: new { @class = "rounded-circle img-fluid" })
+    </div>
+    <div class="timeline-panel">
+        <div class="timeline-heading">
+            <h4>@Editable(m => m.TimeSpan)</h4>
+            <h4 class="subheading">@Editable(m => m.Title)</h4>
+        </div>
+        <div class="timeline-body">
+            <p class="text-muted">@Editable(m => m.Description)</p>
+        </div>
+    </div>
+</li>
